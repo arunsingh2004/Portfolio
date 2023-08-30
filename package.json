@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && vite export",
     "preview": "vite preview",
     "deploy": "vercel --prod"
   },
@@ -20,7 +20,8 @@
     "react-router-dom": "^6.14.2",
     "react-tilt": "^0.1.4",
     "react-vertical-timeline-component": "^3.6.0",
-    "three": "^0.149.0"
+    "three": "^0.149.0",
+    "vercel": "^31.2.2"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

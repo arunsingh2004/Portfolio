@@ -14,4 +14,4 @@ In this course, you'll learn the following:
 - Implement sending emails through a form on the website
 - Ensure responsiveness across all devices and improve your site's performance using Suspense and Preload.
 
-#live link https://64f0a7ce2211da53fc6019bd--arunsinghug21nitp-portfolio.netlify.app/ #https://arunsinghug21nitp-portfolio.netlify.app/
+#deploy on netlify https://arunsingh21csnitp-portfolio.netlify.app/

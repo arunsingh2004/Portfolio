@@ -35,6 +35,9 @@ import agricult from "./agricult.png";
 import dsatracker from "./dsatracker.png";
 import ecommerce from "./ecommerce.png";
 import inotebook from "./inotebook.png";
+import resume from "./resume.pdf";
+import facebook from "./facebook.png";
+import linkiden from "./linkiden.png";
 export {
   logo,
   backend,
@@ -69,4 +72,7 @@ export {
   dsatracker,
   ecommerce,
   agricult,
+  resume,
+  facebook,
+  linkiden,
 };

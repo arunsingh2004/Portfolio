@@ -23,6 +23,12 @@ import {
   jobit,
   tripguide,
   threejs,
+  logo,
+  hackbrezze,
+  inotebook,
+  dsatracker,
+  ecommerce,
+  agricult,
 } from "../assets";
 
 export const navLinks = [
@@ -118,7 +124,7 @@ const experiences = [
   {
     title: "Fronted Website",
     company_name: "Agricult",
-    icon: starbucks,
+    icon: logo,
     iconBg: "#383E56",
     date: " April 2023",
     points: [
@@ -128,40 +134,38 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other team member.",
     ],
   },
-  // {
-  //   title: "React Native Developer",
-  //   company_name: "Tesla",
-  //   icon: tesla,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Web Developer",
-  //   company_name: "Shopify",
-  //   icon: shopify,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
   {
-    title: "Full Stack Developer",
+    title: "DSA PRACTICE WEBAPP",
+    company_name: "DSA tracker",
+    icon: logo,
+    iconBg: "#E6DEDD",
+    date: "June 2021 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js .",
+      "450 DSA Sheet helps you build your confidence in solving any coding related question and helps you prepare for your placements",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+    ],
+  },
+  {
+    title: "E-Commerce",
+    company_name: "CoderWear",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "July 2023 - August 2023",
+    points: [
+      "Developing and maintaining web applications using Nextjs ,TailwindCSS,MongoDB,Byscript,OAth,Integrate Payment Gateway",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Our website offers a seamless shopping experience powered by server-side rendering. ",
+    ],
+  },
+  {
+    title: "Full Stack WebApp",
     company_name: "INotebook",
-    // icon: meta,
+    icon: mobile,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js ,Node.js and MongoDB.",
+      "Developing and maintaining web applications using React.js ,Node.js and MongoDB,JWT,Byscript.",
       "So we made a online web platform where you can create,edit, upload,delete your notes/information privately and securely without any disturbancee,you can also access your notes anywhere in your world,at anytime time",
       "Implementing responsive design and ensuring cross-browser compatibility.",
     ],
@@ -197,6 +201,27 @@ const testimonials = [
 
 const projects = [
   {
+    name: "AgriCult",
+    description:
+      "(AgriCult is Web based Application where Farmers can sell directly to consumers through this app that can help them bypass the intermediates and get a better place for their products.we also help them by connecting of farmers through a single platform so that they can set a particular market without getting manipulated )",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "BootStrap",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: agricult,
+    source_code_link: "https://github.com/arunsingh2004/AgriCult",
+  },
+  {
     name: "Hackbreeze",
     description:
       "(Hackbreeze is Next.js Web Application where hackathons events held where people come together to explore challenges, design solutions and build solutions )",
@@ -214,26 +239,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: hackbrezze,
     source_code_link: "https://github.com/arunsingh2004/Hackbreeze/tree/main",
   },
-  {
-    name: "AgriCult",
-    description:
-      "(AgriCult is Web based Application where Farmers can sell directly to consumers through this app that can help them bypass the intermediates and get a better place for their products.we also help them by connecting of farmers through a single platform so that they can set a particular market without getting manipulated )",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/arunsingh2004/AgriCult",
-  },
+
   {
     name: "INotebook",
     description:
@@ -251,9 +260,64 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "ByScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JWT",
+        color: "blue-text-gradient",
+      },
     ],
-    image: tripguide,
+    image: inotebook,
     source_code_link: "https://github.com/arunsingh2004/Cloud-Notebook",
+  },
+  {
+    name: "DSA trcaker",
+    description:
+      "(An online web platform where you can Track your DSA progress and make note on particular question )",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "localDatabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dsatracker,
+    source_code_link: "https://github.com/arunsingh2004/dsaPracticeWebApp.git",
+  },
+  {
+    name: "Real-Time-Ecommerce",
+    description:
+      "(Our website offers a seamless shopping experience powered by server-side rendering. )",
+    tags: [
+      {
+        name: "NextJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Payment Gateway",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: ecommerce,
+    source_code_link:
+      "https://github.com/arunsingh2004/Real-Time-Ecommerce.git",
   },
 ];
 

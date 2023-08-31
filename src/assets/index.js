@@ -30,6 +30,11 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import hackbrezze from "./hackbrezze.png";
+import agricult from "./agricult.png";
+import dsatracker from "./dsatracker.png";
+import ecommerce from "./ecommerce.png";
+import inotebook from "./inotebook.png";
 export {
   logo,
   backend,
@@ -59,4 +64,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  hackbrezze,
+  inotebook,
+  dsatracker,
+  ecommerce,
+  agricult,
 };

@@ -30,6 +30,8 @@ const ProjectCard = ({
           <img
             src={image}
             alt="project_image"
+            width={"100px"}
+            height={"100px"}
             className="w-full h-full object-cover rounded-2xl"
           />
 

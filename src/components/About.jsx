@@ -1,7 +1,6 @@
 import React from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
-import { resume } from "../assets";
 import { styles } from "../styles";
 // import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
@@ -61,14 +60,6 @@ const About = () => {
         {/* {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))} */}
-
-        <button
-          type="button"
-          onClick={() => window.open(resume, "_blank")}
-          className=" rounded-xl  bg-violet-500 text-black  p-4 text-center"
-        >
-          Resume/CV
-        </button>
       </div>
     </>
   );

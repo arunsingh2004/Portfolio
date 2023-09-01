@@ -38,6 +38,7 @@ import inotebook from "./inotebook.png";
 import resume from "./resume.pdf";
 import facebook from "./facebook.png";
 import linkiden from "./linkiden.png";
+import computer from "./computer.png";
 export {
   logo,
   backend,
@@ -75,4 +76,5 @@ export {
   resume,
   facebook,
   linkiden,
+  computer,
 };

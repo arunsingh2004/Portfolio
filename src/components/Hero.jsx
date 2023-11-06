@@ -1,8 +1,4 @@
-import { motion } from "framer-motion";
-
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
-import { computer } from "../assets";
 import { resume } from "../assets";
 const Hero = () => {
   return (
@@ -46,13 +42,13 @@ const Hero = () => {
         </div>
         {/* <ComputersCanvas /> */}
 
-        <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+        {/* <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
           <a href="#about">
             <div className="w-[35px] h-[64px] rounded-3xl border-4 border-black flex justify-center items-start p-2">
               <h1>aruns.ug21.cs@nitp.ac.in</h1>
             </div>
           </a>
-        </div>
+        </div> */}
         {/* <img
           src={computer}
           alt="source code"
